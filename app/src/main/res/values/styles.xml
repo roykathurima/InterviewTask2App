@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#ffffffff</item>
+<!--        <item name="colorControlActivated">#009688</item>-->
+    </style>
+    <style name="AppTheme." parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
+    <style name="HomeTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#ffe43838</item>
+    </style>
+
+    <style name="TabWidgetTheme" parent="HomeTheme">
+        <item name="colorAccent">#ffffffff</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#BFB2B2</item>
+    </style>
+
+</resources>

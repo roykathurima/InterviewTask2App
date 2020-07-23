@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Task2App</string>
+
+    <!--    Login Strings-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="facebook_login">LOGIN WITH FACEBOOK</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="company_logo">company Logo</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_people">People</string>
+
+    <string name="artist_name">Travis Scott</string>
+    <string name="artist_description">Some Rad Description</string>
+    <string name="query_string">Search people on BNG-TV</string>
+
+    <string name="artists">ARTISTS</string>
+    <string name="users">USERS</string>
+
+    <!--    Home Fragment Strings-->
+    <string name="vacation_songs">VACATION SONGS</string>
+    <string name="romantic">ROMANTIC</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="play">PLAY</string>
+    <string name="info">Info</string>
+    <string name="discover_new">Discover New</string>
+    <string name="popular">Popular</string>
+    <string name="suggested">Suggested</string>
+    <string name="time">10:30</string>
+    </resources>
