@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import com.example.task2app.R
+import kotlinx.android.synthetic.main.home_item.view.*
 
 class HomeRecyclerAdaper(private val interaction: Interaction? = null) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -64,7 +65,10 @@ class HomeRecyclerAdaper(private val interaction: Interaction? = null) :
                 interaction?.onItemSelected(adapterPosition, item)
             }
             //set the layout views here...
-
+            itemView.rating.setImageResource(item.starRid)
+            itemView.home_background.setImageResource(item.backgroundRid)
+            itemView.artist_title.text = item.title
+            itemView.artist_description.text = item.description
         }
     }
 

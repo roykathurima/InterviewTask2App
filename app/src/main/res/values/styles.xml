@@ -17,6 +17,9 @@
 
     <style name="HomeTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">#ffe43838</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 
     <style name="TabWidgetTheme" parent="HomeTheme">
